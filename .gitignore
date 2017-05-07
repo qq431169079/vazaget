@@ -31,3 +31,7 @@
 # Debug files
 *.dSYM/
 *.su
+
+# eclipse project settings file
+*.cproject
+*.project
