@@ -17,22 +17,35 @@ vazaGet is an HTTP/S CLI client application, written on Linux, with few special 
 
 ### Main features 
 1. **File download using "content range" (-r)** , simultaneously download different parts of file, can increase download time in 1/2 of normal download bit rate, especially on links with high delay.
+
 see below example:
+
 set delay of 500msec
-"picture 1"
+
+![Screenshot](readme_pictures/picture_1.jpg)
+	
+
 download 55MB file via wget → 70 sec.
-"picture 2"
+
+![Screenshot](readme_pictures/picture_2.jpg)
+
 Download the same 55MB file, with the same delay (500msec) - see below capture of download in process - **10 simultaneous connections.**
-"picture 3"
+
+![Screenshot](readme_pictures/picture_3.jpg)
+
 **And finish downlaod the same 55m file with vazaGet (-r) in 21.9sec!!!**
-"picture 4"
+
+![Screenshot](readme_pictures/picture_4a.jpg)
 
 2. **Stress tester** : overload your web server with HTTP requests, and easily check the load balancing between your web servers - see below diagram :
-"picture 5"
+
+![Screenshot](readme_pictures/picture_5.jpg)
+
 See below the display of your load balancing distribution:
 **663** connections arrived to server **2.0.0.11**
 **704** connections arrived to server **2.0.0.12**
-"picture 6"
+
+![Screenshot](readme_pictures/picture_6.jpg)
  
 ## The full list of options (version 0.39r_x64)
     -ps <1-65535>	--> set source port (default=0)
