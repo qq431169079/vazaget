@@ -3,6 +3,7 @@
 *.ko
 *.obj
 *.elf
+*.d
 
 # Precompiled Headers
 *.gch
@@ -27,6 +28,7 @@
 *.i*86
 *.x86_64
 *.hex
+vazaget
 
 # Debug files
 *.dSYM/
@@ -35,3 +37,5 @@
 # eclipse project settings file
 *.cproject
 *.project
+
+
