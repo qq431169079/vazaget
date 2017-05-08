@@ -38,4 +38,6 @@ vazaget
 *.cproject
 *.project
 
+.settings/
+
 
