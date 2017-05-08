@@ -1,6 +1,6 @@
 /* rx_analyze.c
  *
- * \author Shay Vaza <shayvaza@gmail.com>
+ * \author Shay Vaza <vazaget@gmail.com>
  *
  *  All rights reserved.
  *

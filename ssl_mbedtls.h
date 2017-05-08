@@ -1,7 +1,7 @@
 /*
  * ssl_mbedtls.h
  *
- * \author Shay Vaza <shayvaza@gmail.com>
+ * \author Shay Vaza <vazaget@gmail.com>
  *
  *
  *  All rights reserved.

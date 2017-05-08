@@ -98,7 +98,7 @@ vazaGet is written in C, and compiled using GCC.
 Download the sources, and run "make".
 
 ### Contact :
-All rights reserved to Shay Vaza - shayvaza@gmail.com
+All rights reserved to Shay Vaza - vazaget@gmail.com
 
 
 
