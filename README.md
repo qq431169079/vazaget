@@ -41,8 +41,8 @@ Download the same 55MB file, with the same delay (500msec) - see below capture o
 
 ![Screenshot](readme_pictures/picture_5.jpg)
 
-See below the display of your load balancing distribution:
-**663** connections arrived to server **2.0.0.11**
+See below the display of your load balancing distribution:  
+**663** connections arrived to server **2.0.0.11**  
 **704** connections arrived to server **2.0.0.12**
 
 ![Screenshot](readme_pictures/picture_6.jpg)
@@ -84,27 +84,26 @@ See below the display of your load balancing distribution:
 	-cr2		--> send every 2nd GET with last cookie, and verify it arrived to destinated dst IP (default=0)
 	-cw		--> Wait and hold all connections until receive cookie (default=0)
 
-**Examples** (recommend load on your web server vazaget index.php (./vazaget -php)):
-	./vazaget 192.168.1.1 -n 1000 --> 1000 IPv4 GET's
-	./vazaget [2010::1]:8080  --> IPv6 GET over port 8080
-	./vazaget http://your_site.com/your_path/your_file  --> GET to webaddress with path and file name
-	./vazaget https://your_secured_site.com --> GET over SSL
-	./vazaget http://your_site.com -pr http://www.your_proxy.com:3128 --> GET through proxy on port 3128
-	./vazaget [2010::1] -up 1000 -bt 500 -br 400 --> POST of 1000 Bytes (require the vazaget php file "vazaget -php") 
-			with BW TX limit to 500 Bps, and BW RX limit to 400 Bps
+**Examples** (recommend load on your web server vazaget index.php (./vazaget -php)):  
+	./vazaget 192.168.1.1 -n 1000 --> 1000 IPv4 GET's  
+	./vazaget [2010::1]:8080  --> IPv6 GET over port 8080  
+	./vazaget http://your_site.com/your_path/your_file  --> GET to webaddress with path and file name  
+	./vazaget https://your_secured_site.com --> GET over SSL  
+	./vazaget http://your_site.com -pr http://www.your_proxy.com:3128 --> GET through proxy on port 3128  
+	./vazaget [2010::1] -up 1000 -bt 500 -br 400 --> POST of 1000 Bytes (require the vazaget php file "vazaget -php") with BW TX limit to 500 Bps, and BW RX limit to 400 Bps
 
 ### Installation :
-vazaGet is written in C, developed on Linux - Mint / Ubuntu (mainly 64bit), 
-and compiled using gcc.
+vazaGet is written in C, developed on Linux - Mint / Ubuntu (mainly 64bit),   
+and compiled using gcc.  
 Compile :
 	make
 Clean :
 	make clean
 
 ### Environment :
-vazaGet developed using eclipse CDT, as IDE (and compiler gcc).
-so the project already contain the relevant files for the eclipse (.project + .cproject)
-If you want to develop vazaGet with eclipse,
+vazaGet developed using eclipse CDT, as IDE (and compiler gcc).  
+so the project already contain the relevant files for the eclipse (.project + .cproject).  
+If you want to develop vazaGet with eclipse:  
 1. open the eclipse
 2. select workbench
 3. File --> New --> Project --> C\C++ --> Makefile project with existing code
