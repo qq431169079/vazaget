@@ -4,6 +4,8 @@ vazaGet is free HTTP/S CLI client application, written on Linux, with few specia
 - **HTTP/S downloader** : special treat for big files, due to parallel downloading of different parts of the file.
 - **Stress tester** : overload your web server with HTTP requests, and easily check the  load balancing between your web servers.
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/ShayVaza)
+
 ### Main features support :
 - IPv4 
 - IPv6
