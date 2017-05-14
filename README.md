@@ -1,6 +1,6 @@
 # vazaGet introduction
 
-vazaGet is an HTTP/S CLI client application, written on Linux, with few special capabilities:
+vazaGet is free HTTP/S CLI client application, written on Linux, with few special capabilities:
 - **HTTP/S downloader** : special treat for big files, due to parallel downloading of different parts of the file.
 - **Stress tester** : overload your web server with HTTP requests, and easily check the  load balancing between your web servers.
 
@@ -94,8 +94,22 @@ See below the display of your load balancing distribution:
 			with BW TX limit to 500 Bps, and BW RX limit to 400 Bps
 
 ### Installation :
-vazaGet is written in C, and compiled using GCC.
-Download the sources, and run "make".
+vazaGet is written in C, developed on Linux - Mint / Ubuntu (mainly 64bit), 
+and compiled using gcc.
+Compile :
+	make
+Clean :
+	make clean
+
+### Environment :
+vazaGet developed using eclipse CDT, as IDE (and compiler gcc).
+so the project already contain the relevant files for the eclipse (.project + .cproject)
+If you want to develop vazaGet with eclipse,
+1. open the eclipse
+2. select workbench
+3. File --> New --> Project --> C\C++ --> Makefile project with existing code
+4. give a name to your workspace + point to the downloaded sources + select compiler GCC
+5. at this point you should be able to compile and clean via the eclipse.
 
 ### Contact :
 All rights reserved to Shay Vaza - vazaget@gmail.com
