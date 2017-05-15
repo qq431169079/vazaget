@@ -95,13 +95,28 @@ See below the display of your load balancing distribution:
 	./vazaget [2010::1] -up 1000 -bt 500 -br 400 --> POST of 1000 Bytes (require the vazaget php file "vazaget -php") with BW TX limit to 500 Bps, and BW RX limit to 400 Bps
 
 ### Installation :
-**If you want only the binary, ready for running on linux x64, you can find it under : latest_version_binary/vazaget_x64**  
+**If you want only the binary, ready for running on linux x64, you can find it under :   
+latest_version_binary/vazaget_x64**  
+
+
 vazaGet is written in C, developed on Linux - Mint / Ubuntu (mainly 64bit),   
 and compiled using gcc.  
+The required packages for compiling vazaget :  
+```sh
+	$ apt-get install gcc make zlib1g-dev  
+```	
+I use to develop on eclipse (running on mint), so I add also :
+```sh
+	$ apt-get install eclipse-cdt  
+```	
 Compile :
-	make
+```sh
+	$ make
+```		
 Clean :
-	make clean
+```sh
+	$ make clean
+```		
 
 ### Environment :
 vazaGet developed using eclipse CDT, as IDE (and compiler gcc).  
@@ -115,6 +130,3 @@ If you want to develop vazaGet with eclipse:
 
 ### Contact :
 All rights reserved to Shay Vaza - vazaget@gmail.com
-
-
-
