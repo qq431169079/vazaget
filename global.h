@@ -33,11 +33,14 @@
 #include "include_mbedtls/platform.h"
 #include "include_mbedtls/ssl.h"
 #include "include_mbedtls/net.h"
+
+#if 0 // seems like not in use any more
 # if __WORDSIZE == 64
 #include "/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h"
 #else
 #include "/usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h"
 #endif
+#endif //if 0
 
 #define VAZAGET_VERSION 				"0.39v"
 
