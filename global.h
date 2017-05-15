@@ -42,7 +42,7 @@
 #endif
 #endif //if 0
 
-#define VAZAGET_VERSION 				"0.39v"
+#define VAZAGET_VERSION 				"0.39w"
 
 # if __WORDSIZE == 64
 #define BUILD_PLATFORM 				"_x64"
