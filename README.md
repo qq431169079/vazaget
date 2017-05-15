@@ -95,6 +95,7 @@ See below the display of your load balancing distribution:
 	./vazaget [2010::1] -up 1000 -bt 500 -br 400 --> POST of 1000 Bytes (require the vazaget php file "vazaget -php") with BW TX limit to 500 Bps, and BW RX limit to 400 Bps
 
 ### Installation :
+**If you want only the binary, ready for running on linux x64, you can find it under : latest_version_binary/vazaget_x64**  
 vazaGet is written in C, developed on Linux - Mint / Ubuntu (mainly 64bit),   
 and compiled using gcc.  
 Compile :
