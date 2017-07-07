@@ -45,9 +45,7 @@
 #include "config.h"
 #include "close.h"
 
-/*****************Release Notes********************/
-
-/*****************Release Notes-END********************/
+/*****************TODO********************/
 //TODO:
 // 1. replace static buffers in dynamic buffers
 
