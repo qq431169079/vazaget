@@ -49,21 +49,7 @@
 
 /*****************Release Notes-END********************/
 //TODO:
-// 1. SSL IPv6
-// 2. SSL IPv6 , rate limit , unit tests
-// 3. add metadata for range file
-// 6. remove irrelevant error conters for range
-// 7. replace static buffers in dynamic buffers
-
-
-/**Known issues**/
-//1. fix close delay of few sockets, in the TX section where need to know this is the last session per TX thread.
-//8. handle case of RX buffer is full (ds)
-//9. add # in parsing of DS file
-//10. increase upload size above 1300
-//11. revert to epoll ET???
-//12. change the DS to work on any port (requires change in the RX where analyzing the packet that will not be related to the html)
-//13. mbedtls support SSL major version (this is the SSL version in the record layer) of TLS1.2 ONLY
+// 1. replace static buffers in dynamic buffers
 
 /*****************Eclipse workspace settings********************/
 /*Compiler:*/
